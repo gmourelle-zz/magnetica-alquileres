@@ -1,0 +1,17 @@
+.depto-header {
+  background-color: #282c34;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.depto-header:active {
+  background: #8d2323;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.text-class {
+  margin-left: 5px;
+}

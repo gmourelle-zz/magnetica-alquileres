@@ -1,0 +1,21 @@
+.sidebar {
+  grid-area: sidebar;
+  color: white;
+  border-radius: 5px;
+  border-color: 1px #444;
+  border: 1px black;
+  padding: 20px; }
+
+.content {
+  grid-area: content; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: 120px 120px;
+  grid-template-areas: 'content content content sidebar';
+  background-color: #fff; }
+
+.box {
+  border-radius: 5px;
+  padding: 20px; }
